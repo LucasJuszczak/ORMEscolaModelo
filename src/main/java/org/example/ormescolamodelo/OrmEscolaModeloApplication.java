@@ -1,6 +1,7 @@
 package org.example.ormescolamodelo;
 
 import jakarta.transaction.Transactional;
+import org.example.ormescolamodelo.entidades.*;
 import org.example.ormescolamodelo.repositorios.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -41,7 +42,11 @@ public class OrmEscolaModeloApplication implements CommandLineRunner {
 	@Override
 	@Transactional
 	public void run(String... args) throws Exception {
+//		Professor professor = new Professor();
+//		professor.setNome("Tiago Roberto Kautzmann");
+//		professorRepo.save(professor);
 
+		
 	}
 
 }
