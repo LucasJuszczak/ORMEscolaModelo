@@ -16,6 +16,6 @@ public class Usuario {
     private String senha;
 
     @ManyToOne
-     @JoinColumn(name = "aluno_id")
+    @JoinColumn(name = "aluno_id")
     private Aluno aluno;
 }
